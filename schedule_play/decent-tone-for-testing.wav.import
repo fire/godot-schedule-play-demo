@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.godot/imported/decent-tone-for-testing.wav-3466c52242f20a059c00608cf7665210.sample"
+
+[deps]
+
+source_file="res://schedule_play/decent-tone-for-testing.wav"
+dest_files=[ "res://.godot/imported/decent-tone-for-testing.wav-3466c52242f20a059c00608cf7665210.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=true
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=1
