@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://schedule_play/decent-tone-for-testing.wav" type="AudioStream" id=1]
+[ext_resource path="res://schedule_play/PM_PAS_Aperture_ring_f_stops_021.wav" type="AudioStream" id=1]
 [ext_resource path="res://schedule_play/Node2D.gd" type="Script" id=2]
 
 [node name="Node2D" type="Node2D"]
@@ -8,5 +8,5 @@ script = ExtResource( 2 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 1 )
-volume_db = -15.0
+volume_db = -8.0
 script = null

@@ -8,7 +8,7 @@ func _ready():
 		ap.play_scheduled(_generate_time(mix_time, i))
 
 func _generate_time(mix_time, times):	
-	var interval_sec = .6
+	var interval_sec = .2
 	var next_audio_event = mix_time + interval_sec * times
 	print("Scheduling at mix time " + str(mix_time) + " at " + str(next_audio_event))
 	return next_audio_event
