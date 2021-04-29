@@ -1,7 +1,8 @@
 extends Node2D
 
 func _ready():	
-	var mix_time = AudioServer.get_last_mix_time()	
+	var mix_time = AudioServer.get_last_mix_time()
+	mix_time = int(mix_time)
 	for i in range(0, 1000):
 		var ap = get_node("AudioStreamPlayer").duplicate()
 		add_child(ap)
